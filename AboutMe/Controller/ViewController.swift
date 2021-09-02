@@ -8,7 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+    var portraitConstraints: [NSLayoutConstraint] = [NSLayoutConstraint]()
+    var landscapeConstraints: [NSLayoutConstraint] = [NSLayoutConstraint]()
     
     let blueBox: UIView = {
         let view = UIView()
@@ -30,31 +31,51 @@ class ViewController: UIViewController {
             blueBox.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor),
             blueBox.leftAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leftAnchor)
         ])
-       
-//        NSLayoutConstraint.
+        
+        let displayHeightPortait: NSLayoutDimension = self.view.safeAreaLayoutGuide.heightAnchor
+        let displayWidthPortait: NSLayoutDimension = self.view.safeAreaLayoutGuide.widthAnchor
+        
+        portraitConstraints = [
+            blueBox.heightAnchor.constraint(equalTo: displayHeightPortait, multiplier: 1/5),
+            blueBox.widthAnchor.constraint(equalTo: displayWidthPortait, multiplier: 1/3)
+        ]
+        
+        let displayHeightLandscape: NSLayoutDimension = self.view.safeAreaLayoutGuide.widthAnchor
+        let displayWidthLandscape: NSLayoutDimension = self.view.safeAreaLayoutGuide.heightAnchor
+        
+        
+        landscapeConstraints = [
+            blueBox.heightAnchor.constraint(equalTo: displayHeightLandscape, multiplier: 1/5),
+            blueBox.widthAnchor.constraint(equalTo: displayWidthLandscape, multiplier: 1/3)
+        ]
+        
+        if (UIDevice.current.orientation.isLandscape) {
+            NSLayoutConstraint.activate(landscapeConstraints)
+        } else {
+            NSLayoutConstraint.activate(portraitConstraints)
+        }
         
     }
     
     private func layoutBlueBox() {
         print("layoutBlueBox called")
-        var displayHeight: NSLayoutDimension = self.view.safeAreaLayoutGuide.heightAnchor
-        var displayWidth: NSLayoutDimension = self.view.safeAreaLayoutGuide.widthAnchor
-        
-//        let height = self.view.safeAreaLayoutGuide.heightAnchor.value(forKey: )
-        
-        let shouldNormalizeDisplaySize = UIDevice.current.orientation.isLandscape
-        if (shouldNormalizeDisplaySize) {
-            displayWidth = self.view.safeAreaLayoutGuide.heightAnchor
-            displayHeight = self.view.safeAreaLayoutGuide.widthAnchor
-        }
         print(self.view.safeAreaLayoutGuide.heightAnchor)
         print(self.view.safeAreaLayoutGuide.widthAnchor)
-        NSLayoutConstraint.deactivate([blueBox.heightAnchor.constraint(equalTo: displayHeight, multiplier: 1/5),
-                                       blueBox.widthAnchor.constraint(equalTo: displayWidth, multiplier: 1/3)])
-        NSLayoutConstraint.activate([
-            blueBox.heightAnchor.constraint(equalTo: displayHeight, multiplier: 1/5),
-            blueBox.widthAnchor.constraint(equalTo: displayWidth, multiplier: 1/3)
-        ])
+        
+        if (UIDevice.current.orientation.isLandscape) {
+            NSLayoutConstraint.deactivate(portraitConstraints)
+            NSLayoutConstraint.activate(landscapeConstraints)
+        } else {
+            NSLayoutConstraint.deactivate(landscapeConstraints)
+            NSLayoutConstraint.activate(portraitConstraints)
+        }
+        
+//        NSLayoutConstraint.deactivate([blueBox.heightAnchor.constraint(equalTo: displayHeight, multiplier: 1/5),
+//                                       blueBox.widthAnchor.constraint(equalTo: displayWidth, multiplier: 1/3)])
+//        NSLayoutConstraint.activate([
+//            blueBox.heightAnchor.constraint(equalTo: displayHeight, multiplier: 1/5),
+//            blueBox.widthAnchor.constraint(equalTo: displayWidth, multiplier: 1/3)
+//        ])
     }
     
     override func viewWillLayoutSubviews() {
