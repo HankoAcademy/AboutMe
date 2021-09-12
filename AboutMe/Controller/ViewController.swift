@@ -104,13 +104,14 @@ class ViewController: UIViewController {
         view.alignment = .center
         view.distribution = .fill
         view.spacing = 5
+        view.backgroundColor = .white
         return view
     }()
     
     override func loadView() {
         super.loadView()
         
-        self.view = UIView()
+        self.view = mainStack
         self.view.backgroundColor = .white
         self.view.addSubview(blueBox)
 
