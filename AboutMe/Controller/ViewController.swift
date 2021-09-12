@@ -112,16 +112,16 @@ class ViewController: UIViewController {
         super.loadView()
         
         self.view = mainStack
-        self.view.backgroundColor = .white
-        self.view.addSubview(blueBox)
+        mainStack.addArrangedSubview(blueBox)
 
         NSLayoutConstraint.activate([
             headerStack.centerYAnchor.constraint(equalTo: blueBox.centerYAnchor, constant: -10),
             headerStack.centerXAnchor.constraint(equalTo: blueBox.centerXAnchor),
-            blueBox.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor),
-            blueBox.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 20),
-            blueBox.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -20),
-            blueBox.heightAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.heightAnchor, multiplier: 4/9)
+//            blueBox.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor),
+//            blueBox.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 20),
+//            blueBox.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -20),
+            blueBox.heightAnchor.constraint(equalTo: mainStack.heightAnchor, multiplier: 4/9),
+            blueBox.widthAnchor.constraint(equalTo: mainStack.widthAnchor)
         ])
     }
 }
