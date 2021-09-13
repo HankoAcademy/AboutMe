@@ -13,77 +13,73 @@ class ViewController: UIViewController {
     let lightBlue = UIColor(red: 224/255, green: 252/255, blue: 255/255, alpha: 1.0)
     let blue = UIColor(red: 189/255, green: 228/255, blue: 244/255, alpha: 1.0)
     
+    
     let nameLabel: UILabel = {
        let view = UILabel()
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.textColor = .white
+        
         view.text = "Yani Julian"
         view.textAlignment = NSTextAlignment.center
-        view.font = UIFont(name: "Helvetica", size: UIFont.labelFontSize*1.4)
         view.textColor = UIColor.white
+        view.font = UIFont.preferredFont(forTextStyle: UIFont.TextStyle.title1)
+        
         return view
     }()
     let pronounsLabel: UILabel = {
        let view = UILabel()
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.textColor = .white
+        
         view.text = "he/him/his"
         view.textAlignment = NSTextAlignment.center
-        view.font = UIFont(name: "Helvetica", size: UIFont.labelFontSize)
         view.textColor = UIColor.gray
+        view.font = UIFont.preferredFont(forTextStyle: UIFont.TextStyle.title3)
+        
         return view
     }()
 
     lazy var profileImage: UIImageView = {
         let view = UIImageView()
-        view.image = UIImage(named: "ProfileImage")
         view.translatesAutoresizingMaskIntoConstraints = false
+        
+        view.image = UIImage(named: "ProfileImage")
         view.contentMode = .center
         view.transform = CGAffineTransform(scaleX: 1/10, y: 1/10).translatedBy(x: 150, y: -350)
+        
         return view
     }()
     lazy var profileView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
+        
         view.heightAnchor.constraint(equalToConstant: 150).isActive = true
         view.widthAnchor.constraint(equalToConstant: 150).isActive = true
+        
         view.layer.borderColor = CGColor(red: 232/255, green: 69/255, blue: 69/255, alpha: 1.0)
         view.layer.borderWidth = 0
         view.layer.cornerRadius = 75
         view.clipsToBounds = true
+        
         view.addSubview(profileImage)
         profileImage.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         profileImage.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         profileImage.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         profileImage.heightAnchor.constraint(equalTo: view.heightAnchor).isActive = true
+        
         return view
     }()
-    
-    
-    let spacing: UIView = {
-        let view = UIView()
-        view.translatesAutoresizingMaskIntoConstraints = false
-        view.addConstraint(view.heightAnchor.constraint(equalToConstant: 5))
-        return view
-    }()
-    let spacing2: UIView = {
-        let view = UIView()
-        view.translatesAutoresizingMaskIntoConstraints = false
-        view.addConstraint(view.heightAnchor.constraint(equalToConstant: 10))
-        return view
-    }()
-    
+        
     lazy var headerStack: UIStackView = {
         let view = UIStackView()
         view.translatesAutoresizingMaskIntoConstraints = false
+        
         view.axis = NSLayoutConstraint.Axis.vertical
         view.alignment = .center
         view.distribution = .fill
         view.spacing = 5
         
-        view.addArrangedSubview(spacing2)
         view.addArrangedSubview(profileView)
-        view.addArrangedSubview(spacing)
+        view.setCustomSpacing(20, after: profileView)
+        
         view.addArrangedSubview(nameLabel)
         view.addArrangedSubview(pronounsLabel)
         
@@ -95,9 +91,9 @@ class ViewController: UIViewController {
         
         view.backgroundColor = darkBlue
         view.layer.cornerRadius = 20
-        view.addSubview(headerStack)
         
-        headerStack.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -10).isActive = true
+        view.addSubview(headerStack)
+        headerStack.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -5).isActive = true
         headerStack.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         
         return view
@@ -111,7 +107,6 @@ class ViewController: UIViewController {
         view.text = "📍 Chicago, Illinois"
         view.textAlignment = NSTextAlignment.left
         view.textColor = UIColor.label
-
         view.font = UIFont.preferredFont(forTextStyle: UIFont.TextStyle.headline)
         view.font = view.font.withSize(view.font.pointSize * 1.2)
         
@@ -120,8 +115,8 @@ class ViewController: UIViewController {
     lazy var locationBorder: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = darkBlue
         
+        view.backgroundColor = darkBlue
         view.heightAnchor.constraint(equalToConstant: 5).isActive = true
         
         return view
@@ -130,15 +125,14 @@ class ViewController: UIViewController {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
         
-        view.addSubview(locationLabel)
-        
         let margin = CGFloat(16)
         view.directionalLayoutMargins.top = margin
         view.directionalLayoutMargins.leading = margin
         view.directionalLayoutMargins.trailing = margin
         view.directionalLayoutMargins.bottom = 6
-        view.heightAnchor.constraint(equalTo: locationLabel.heightAnchor, constant: 22).isActive = true
         
+        view.addSubview(locationLabel)
+        view.heightAnchor.constraint(equalTo: locationLabel.heightAnchor, constant: 22).isActive = true
         locationLabel.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor).isActive = true
         locationLabel.trailingAnchor.constraint(equalTo: view.layoutMarginsGuide.trailingAnchor).isActive = true
         locationLabel.topAnchor.constraint(equalTo: view.layoutMarginsGuide.topAnchor).isActive = true
@@ -157,10 +151,8 @@ class ViewController: UIViewController {
         
         view.addArrangedSubview(locationHeader)
         view.addArrangedSubview(locationBorder)
-        
         locationBorder.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         locationHeader.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
-
 
         return view
     }()
@@ -191,7 +183,7 @@ class ViewController: UIViewController {
         
         return view
     }()
-    
+
     override func loadView() {
         super.loadView()
         
