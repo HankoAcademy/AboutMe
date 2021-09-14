@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 3300 2200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g id="Notes">
+        <rect id="artboard" x="0" y="0" width="3300" height="2200" style="fill:white;"/>
+        <path d="M263,292L3036,292" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.5px;"/>
+        <g transform="matrix(1,0,0,1,263,322)">
+            <g>
+                <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">W</text>
+                <g transform="matrix(1,0,0,1,13.922,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">eight/Scale V</text>
+                </g>
+                <g transform="matrix(1,0,0,1,101.313,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">ariations</text>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,559.711,322)">
+            <g>
+                <g transform="matrix(1,0,0,1,-30.41,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">Ultr</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-6.41,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">alight</text>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,841.598,322)">
+            <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">Thin</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1136.17,322)">
+            <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">Light</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1424.23,322)">
+            <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">Regular</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1719.1,322)">
+            <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">Medium</text>
+        </g>
+        <g transform="matrix(1,0,0,1,2011.61,322)">
+            <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">Semibold</text>
+        </g>
+        <g transform="matrix(1,0,0,1,2324.84,322)">
+            <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">Bold</text>
+        </g>
+        <g transform="matrix(1,0,0,1,2615.23,322)">
+            <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">Heavy</text>
+        </g>
+        <g transform="matrix(1,0,0,1,2915.03,322)">
+            <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">Black</text>
+        </g>
+        <path d="M263,1903L3036,1903" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.5px;"/>
+        <g transform="matrix(1,0,0,1,263,1933)">
+            <path d="M9.248,0.83C13.555,0.83 17.139,-2.744 17.139,-7.051C17.139,-11.357 13.545,-14.932 9.238,-14.932C4.941,-14.932 1.367,-11.357 1.367,-7.051C1.367,-2.744 4.951,0.83 9.248,0.83ZM9.248,-0.654C5.703,-0.654 2.871,-3.496 2.871,-7.051C2.871,-10.605 5.693,-13.447 9.238,-13.447C12.793,-13.447 15.635,-10.605 15.645,-7.051C15.654,-3.496 12.803,-0.654 9.248,-0.654ZM6.396,-6.318L8.506,-6.318L8.506,-4.199C8.506,-3.76 8.799,-3.457 9.229,-3.457C9.678,-3.457 9.971,-3.76 9.971,-4.199L9.971,-6.318L12.1,-6.318C12.539,-6.318 12.842,-6.611 12.842,-7.041C12.842,-7.48 12.539,-7.783 12.1,-7.783L9.971,-7.783L9.971,-9.893C9.971,-10.342 9.678,-10.645 9.229,-10.645C8.799,-10.645 8.506,-10.342 8.506,-9.893L8.506,-7.783L6.396,-7.783C5.947,-7.783 5.645,-7.48 5.645,-7.041C5.645,-6.611 5.947,-6.318 6.396,-6.318Z" style="fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,281.506,1933)">
+            <path d="M11.709,2.91C17.158,2.91 21.67,-1.611 21.67,-7.051C21.67,-12.5 17.148,-17.012 11.699,-17.012C6.26,-17.012 1.748,-12.5 1.748,-7.051C1.748,-1.611 6.27,2.91 11.709,2.91ZM11.709,1.25C7.1,1.25 3.418,-2.441 3.418,-7.051C3.418,-11.66 7.09,-15.352 11.699,-15.352C16.309,-15.352 20,-11.66 20.01,-7.051C20.02,-2.441 16.318,1.25 11.709,1.25ZM7.988,-6.23L10.879,-6.23L10.879,-3.32C10.879,-2.832 11.211,-2.5 11.69,-2.5C12.178,-2.5 12.52,-2.832 12.52,-3.32L12.52,-6.23L15.43,-6.23C15.918,-6.23 16.25,-6.563 16.25,-7.041C16.25,-7.529 15.918,-7.871 15.43,-7.871L12.52,-7.871L12.52,-10.762C12.52,-11.27 12.178,-11.602 11.69,-11.602C11.211,-11.602 10.879,-11.26 10.879,-10.762L10.879,-7.871L7.988,-7.871C7.48,-7.871 7.148,-7.529 7.148,-7.041C7.148,-6.563 7.49,-6.23 7.988,-6.23Z" style="fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,304.924,1933)">
+            <path d="M14.971,5.664C21.934,5.664 27.695,-0.098 27.695,-7.051C27.695,-14.014 21.924,-19.775 14.961,-19.775C8.008,-19.775 2.256,-14.014 2.256,-7.051C2.256,-0.098 8.018,5.664 14.971,5.664ZM14.971,3.848C8.936,3.848 4.082,-1.016 4.082,-7.051C4.082,-13.096 8.926,-17.949 14.961,-17.949C21.006,-17.949 25.859,-13.096 25.869,-7.051C25.879,-1.016 21.016,3.848 14.971,3.848ZM10.059,-6.143L14.063,-6.143L14.063,-2.129C14.063,-1.592 14.434,-1.221 14.951,-1.221C15.488,-1.221 15.859,-1.592 15.859,-2.129L15.859,-6.143L19.883,-6.143C20.41,-6.143 20.791,-6.514 20.791,-7.031C20.791,-7.568 20.42,-7.949 19.883,-7.949L15.859,-7.949L15.859,-11.953C15.859,-12.51 15.488,-12.881 14.951,-12.881C14.434,-12.881 14.063,-12.5 14.063,-11.953L14.063,-7.949L10.059,-7.949C9.502,-7.949 9.131,-7.568 9.131,-7.031C9.131,-6.514 9.512,-6.143 10.059,-6.143Z" style="fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,263,1953)">
+            <g>
+                <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">Design V</text>
+                <g transform="matrix(1,0,0,1,59.211,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">ariations</text>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,263,1971)">
+            <g>
+                <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">Symbols ar</text>
+                <g transform="matrix(1,0,0,1,74.039,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">e support</text>
+                </g>
+                <g transform="matrix(1,0,0,1,136.977,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">ed in up t</text>
+                </g>
+                <g transform="matrix(1,0,0,1,197.406,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">o nine weights and thr</text>
+                </g>
+                <g transform="matrix(1,0,0,1,343.289,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">ee scales.</text>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,263,1989)">
+            <g>
+                <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">F</text>
+                <g transform="matrix(1,0,0,1,8.133,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">or optimal lay</text>
+                </g>
+                <g transform="matrix(1,0,0,1,96.43,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">out with t</text>
+                </g>
+                <g transform="matrix(1,0,0,1,157.508,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">e<tspan x="8.039px " y="0px ">x</tspan>t and other symbols,</text>
+                </g>
+                <g transform="matrix(1,0,0,1,306.883,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">v<tspan x="7.414px " y="0px ">e</tspan>rtically align</text>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,263,2007)">
+            <g>
+                <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">symbols with the adjacent t</text>
+                <g transform="matrix(1,0,0,1,181.344,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">e<tspan x="8.039px " y="0px ">x</tspan>t.</text>
+                </g>
+            </g>
+        </g>
+        <path d="M776,1919L776,1933" style="fill:none;fill-rule:nonzero;stroke:rgb(0,174,239);stroke-width:0.5px;"/>
+        <g transform="matrix(1,0,0,1,776,1933)">
+            <path d="M3.311,0.127C3.828,0.127 4.082,-0.068 4.268,-0.605L5.527,-4.063L11.289,-4.063L12.549,-0.605C12.734,-0.068 12.988,0.127 13.496,0.127C14.014,0.127 14.346,-0.186 14.346,-0.674C14.346,-0.84 14.316,-0.986 14.238,-1.201L9.658,-13.389C9.434,-13.994 9.033,-14.287 8.408,-14.287C7.803,-14.287 7.393,-13.994 7.178,-13.398L2.598,-1.191C2.52,-0.977 2.49,-0.83 2.49,-0.664C2.49,-0.176 2.803,0.127 3.311,0.127ZM6.006,-5.537L8.379,-12.109L8.428,-12.109L10.801,-5.537L6.006,-5.537Z" style="fill-rule:nonzero;"/>
+        </g>
+        <path d="M792.836,1919L792.836,1933" style="fill:none;fill-rule:nonzero;stroke:rgb(0,174,239);stroke-width:0.5px;"/>
+        <g transform="matrix(1,0,0,1,776,1953)">
+            <g>
+                <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">M</text>
+                <g transform="matrix(1,0,0,1,13.063,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">ar<tspan x="12.57px " y="0px ">g</tspan>ins</text>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,776,1971)">
+            <g>
+                <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">L</text>
+                <g transform="matrix(1,0,0,1,8.156,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">eading and tr</text>
+                </g>
+                <g transform="matrix(1,0,0,1,95.227,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">ailing mar</text>
+                </g>
+                <g transform="matrix(1,0,0,1,159.031,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">gins on the left and right side of each symbol</text>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,776,1989)">
+            <g>
+                <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">can be adjust</text>
+                <g transform="matrix(1,0,0,1,88.727,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">ed b</text>
+                </g>
+                <g transform="matrix(1,0,0,1,117.609,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">y modifying the x</text>
+                </g>
+                <g transform="matrix(1,0,0,1,230.703,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">-location of the mar</text>
+                </g>
+                <g transform="matrix(1,0,0,1,360.664,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">gin guidelines.</text>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,776,2007)">
+            <g>
+                <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">Modifications ar</text>
+                <g transform="matrix(1,0,0,1,106.484,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">e aut</text>
+                </g>
+                <g transform="matrix(1,0,0,1,139.008,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">omatically applied pr</text>
+                </g>
+                <g transform="matrix(1,0,0,1,275.977,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">oportionally t</text>
+                </g>
+                <g transform="matrix(1,0,0,1,361.93,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">o all</text>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,776,2025)">
+            <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">scales and weights.</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1289,1933)">
+            <path d="M2.842,1.865L4.541,3.574C5.4,4.443 6.387,4.385 7.314,3.359L17.49,-7.852C17.754,-7.764 18.027,-7.783 18.34,-7.842L19.404,-8.037L20.068,-7.363L20.029,-6.807C19.99,-6.309 20.117,-5.928 20.606,-5.449L21.367,-4.707C21.846,-4.229 22.461,-4.199 22.93,-4.668L25.84,-7.588C26.309,-8.057 26.289,-8.652 25.811,-9.131L25.039,-9.893C24.561,-10.371 24.19,-10.527 23.711,-10.488L23.135,-10.44L22.49,-11.074L22.734,-12.197C22.861,-12.764 22.705,-13.203 22.119,-13.789L19.922,-15.977C16.582,-19.297 12.148,-19.219 9.258,-16.328C8.838,-15.918 8.809,-15.342 9.043,-14.951C9.277,-14.59 9.736,-14.355 10.381,-14.522C11.846,-14.863 13.369,-14.922 14.795,-13.984L14.209,-12.529C14.014,-12.051 13.984,-11.65 14.111,-11.289L3.047,-0.898C2.061,0.02 1.982,0.996 2.842,1.865ZM10.752,-15.957C13.184,-17.734 16.475,-17.432 18.701,-15.205L21.133,-12.793C21.367,-12.559 21.406,-12.373 21.338,-12.031L21.016,-10.547L22.52,-9.063L23.506,-9.121C23.76,-9.131 23.838,-9.111 24.033,-8.916L24.609,-8.34L22.168,-5.898L21.592,-6.475C21.397,-6.67 21.367,-6.748 21.377,-7.012L21.445,-7.988L19.951,-9.473L18.428,-9.219C18.106,-9.15 17.959,-9.18 17.715,-9.414L15.713,-11.416C15.459,-11.65 15.43,-11.816 15.586,-12.188L16.465,-14.277C14.902,-15.732 12.871,-16.357 10.84,-15.762C10.684,-15.723 10.625,-15.85 10.752,-15.957ZM5.273,2.305L4.102,1.143C3.633,0.684 3.74,0.342 4.141,-0.02L14.951,-10.195L16.416,-8.711L6.426,2.275C6.074,2.676 5.742,2.773 5.273,2.305Z" style="fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,1289,1953)">
+            <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">Exporting</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1289,1971)">
+            <g>
+                <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">Symbols should be outlined when e</text>
+                <g transform="matrix(1,0,0,1,235.289,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">xporting t</text>
+                </g>
+                <g transform="matrix(1,0,0,1,298.188,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">o ensur</text>
+                </g>
+                <g transform="matrix(1,0,0,1,347,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">e the</text>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,1289,1989)">
+            <g>
+                <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">design is pr</text>
+                <g transform="matrix(1,0,0,1,75.641,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">eserv</text>
+                </g>
+                <g transform="matrix(1,0,0,1,111.82,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">ed when submitting t</text>
+                </g>
+                <g transform="matrix(1,0,0,1,251.031,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">o X</text>
+                </g>
+                <g transform="matrix(1,0,0,1,272.414,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">code.</text>
+                </g>
+            </g>
+        </g>
+        <g id="template-version" transform="matrix(1,0,0,1,3036,1933)">
+            <g>
+                <g transform="matrix(1,0,0,1,-96.57,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">T</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-89.383,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">emplat</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-43.664,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">e v</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-25.633,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">.2.0</text>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,3036,1951)">
+            <g>
+                <g transform="matrix(1,0,0,1,-191.594,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">Requir</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-148.766,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">es X</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-120.234,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">code 12 or gr</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-33.938,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">eat</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-13.125,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">er</text>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,3036,1969)">
+            <g>
+                <g transform="matrix(1,0,0,1,-204.289,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">Gener</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-163.391,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">at<tspan x="12.617px " y="0px ">e</tspan>d fr</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-121.039,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">om pencil.</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-53.453,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">cir</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-37.602,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">cle.fill</text>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,3036,1987)">
+            <g>
+                <g transform="matrix(1,0,0,1,-143.117,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">T</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-135.695,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">ypeset at 100 points</text>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,263,726)">
+            <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">Small</text>
+        </g>
+        <g transform="matrix(1,0,0,1,263,1156)">
+            <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">Medium</text>
+        </g>
+        <g transform="matrix(1,0,0,1,263,1586)">
+            <g>
+                <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">Lar</text>
+                <g transform="matrix(1,0,0,1,20.961,0)">
+                    <text x="0px" y="0px" style="font-family:'SFProDisplay-Regular', 'SF Pro Display';font-size:16px;">ge</text>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g id="Guides">
+        <g id="H-reference" transform="matrix(1,0,0,1,339,696)">
+            <path d="M0.977,0L3.662,0L12.988,-24.463L45.752,-24.463L55.127,0L57.764,0L30.615,-70.459L28.125,-70.459L0.977,0ZM29.346,-67.139L29.443,-67.139L44.873,-26.709L13.867,-26.709L29.346,-67.139Z" style="fill:rgb(39,170,225);fill-rule:nonzero;"/>
+        </g>
+        <path id="Baseline-S" d="M263,696L3036,696" style="fill:none;fill-rule:nonzero;stroke:rgb(39,170,225);stroke-width:0.5px;"/>
+        <path id="Capline-S" d="M263,625.541L3036,625.541" style="fill:none;fill-rule:nonzero;stroke:rgb(39,170,225);stroke-width:0.5px;"/>
+        <g id="H-reference1" serif:id="H-reference" transform="matrix(1,0,0,1,339,1126)">
+            <path d="M0.977,0L3.662,0L12.988,-24.463L45.752,-24.463L55.127,0L57.764,0L30.615,-70.459L28.125,-70.459L0.977,0ZM29.346,-67.139L29.443,-67.139L44.873,-26.709L13.867,-26.709L29.346,-67.139Z" style="fill:rgb(39,170,225);fill-rule:nonzero;"/>
+        </g>
+        <path id="Baseline-M" d="M263,1126L3036,1126" style="fill:none;fill-rule:nonzero;stroke:rgb(39,170,225);stroke-width:0.5px;"/>
+        <path id="Capline-M" d="M263,1055.54L3036,1055.54" style="fill:none;fill-rule:nonzero;stroke:rgb(39,170,225);stroke-width:0.5px;"/>
+        <g id="H-reference2" serif:id="H-reference" transform="matrix(1,0,0,1,339,1556)">
+            <path d="M0.977,0L3.662,0L12.988,-24.463L45.752,-24.463L55.127,0L57.764,0L30.615,-70.459L28.125,-70.459L0.977,0ZM29.346,-67.139L29.443,-67.139L44.873,-26.709L13.867,-26.709L29.346,-67.139Z" style="fill:rgb(39,170,225);fill-rule:nonzero;"/>
+        </g>
+        <path id="Baseline-L" d="M263,1556L3036,1556" style="fill:none;fill-rule:nonzero;stroke:rgb(39,170,225);stroke-width:0.5px;"/>
+        <path id="Capline-L" d="M263,1485.54L3036,1485.54" style="fill:none;fill-rule:nonzero;stroke:rgb(39,170,225);stroke-width:0.5px;"/>
+        <path id="left-margin" d="M1391.3,1030.79L1391.3,1150.12" style="fill:none;fill-rule:nonzero;stroke:rgb(0,174,239);stroke-width:0.5px;"/>
+        <path id="right-margin" d="M1508.39,1030.79L1508.39,1150.12" style="fill:none;fill-rule:nonzero;stroke:rgb(0,174,239);stroke-width:0.5px;"/>
+    </g>
+    <g id="Symbols">
+        <g id="Regular-M">
+            <path d="M1449.85,1140.6C1477.09,1140.6 1499.65,1118.04 1499.65,1090.8C1499.65,1063.6 1477.04,1040.99 1449.8,1040.99C1422.6,1040.99 1400.04,1063.6 1400.04,1090.8C1400.04,1118.04 1422.65,1140.6 1449.85,1140.6ZM1464.14,1135.71C1459.18,1144.2 1428.14,1136.02 1435.57,1135.71C1437.82,1136.12 1438.66,1134.73 1438.66,1133.52C1438.66,1132.42 1438.61,1128.79 1438.61,1124.93C1427.3,1127.06 1424.38,1122.1 1423.48,1119.51C1422.48,1116.98 1420.89,1114.75 1418.86,1112.99C1417.29,1112.12 1415.04,1109.99 1418.81,1109.93C1421.72,1110.26 1424.31,1112.02 1425.73,1114.66C1427.42,1117.78 1430.64,1119.73 1434.13,1119.73C1435.78,1119.73 1437.39,1119.29 1438.83,1118.47C1439.03,1116.12 1440.05,1113.93 1441.7,1112.3C1431.69,1111.14 1421.23,1107.16 1421.23,1089.52C1421.16,1084.93 1422.81,1080.49 1425.84,1077.12C1424.46,1073.13 1424.62,1068.76 1426.29,1064.89C1427.95,1061.02 1430.06,1063.68 1438.66,1069.62C1446.03,1067.54 1453.8,1067.54 1461.16,1069.62C1469.77,1063.62 1473.54,1064.89 1473.54,1064.89C1475.2,1068.76 1475.36,1073.13 1473.99,1077.12C1477.02,1080.49 1478.67,1084.93 1478.6,1089.52C1478.6,1107.22 1468.08,1111.14 1458.07,1112.3C1460.24,1114.55 1461.35,1117.67 1461.11,1120.83C1461.11,1127 1461.05,1131.96 1461.05,1133.52C1461.05,1134.73 1461.89,1136.17 1464.14,1135.71Z" style="fill-rule:nonzero;"/>
+        </g>
+    </g>
+</svg>

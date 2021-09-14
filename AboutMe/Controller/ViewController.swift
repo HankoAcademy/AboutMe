@@ -107,8 +107,8 @@ class ViewController: UIViewController {
         view.text = "📍 Chicago, Illinois"
         view.textAlignment = NSTextAlignment.left
         view.textColor = UIColor.label
-        view.font = UIFont.preferredFont(forTextStyle: UIFont.TextStyle.headline)
-        view.font = view.font.withSize(view.font.pointSize * 1.2)
+        view.font = UIFont.preferredFont(forTextStyle: UIFont.TextStyle.title2)
+//        view.font = view.font.withSize(view.font.pointSize * 1.2)
         
         return view
     }()
@@ -149,11 +149,17 @@ class ViewController: UIViewController {
         view.distribution = .fill
         view.spacing = 5
         
+        
+//        view.isLayoutMarginsRelativeArrangement = true
+//        view.directionalLayoutMargins.leading = 8
+        
         view.addArrangedSubview(locationHeader)
         view.addArrangedSubview(locationBorder)
         locationBorder.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         locationHeader.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
-
+        
+        view.addArrangedSubview(contactItemView)
+//        view.bottomAnchor.constraint(equalTo: contactItemView.bottomAnchor, constant: 16).isActive = true
         return view
     }()
     lazy var contactView: UIView = {
@@ -162,12 +168,86 @@ class ViewController: UIViewController {
 
         view.backgroundColor = blue
         view.layer.cornerRadius = 20
-        
         view.addSubview(contactStack)
+        
         contactStack.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         contactStack.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         contactStack.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        contactStack.heightAnchor.constraint(equalTo: view.heightAnchor).isActive = true
+        return view
+    }()
+    
+    let contactItemView: UIView = {
+//       let view = UIView()
+//        view.translatesAutoresizingMaskIntoConstraints = false
+//
+//        let stack = UIStackView()
+//        stack.translatesAutoresizingMaskIntoConstraints = false
+//        stack.axis = NSLayoutConstraint.Axis.horizontal
+//        stack.alignment = .center
+//        stack.distribution = .fill
+//
+//
+//
+//        let icon = UIImageView()
+//        icon.translatesAutoresizingMaskIntoConstraints = false
+//
+//        let config = UIImage.SymbolConfiguration(textStyle: .title1, scale: .medium)
+
+//        icon.image = UIImage(systemName: "GitHubIcon")
+//        icon.image = UIImage(systemName: "pencil.circle.fill", withConfiguration: config)
+        //        icon.preferredSymbolConfiguration = icon.image.applyingSymbolConfiguration(UIImage.SymbolConfiguration.init(scale: .medium))
+        //        let config = UIImage.SymbolConfiguration(paletteColors: [.systemTeal, .systemGray])
+
+//        let link = UILabel()
+//        link.translatesAutoresizingMaskIntoConstraints = false
+//
+//        link.text = "github.com/bayanijulian"
+//        link.textAlignment = NSTextAlignment.center
+//        link.textColor = UIColor.label
+//        link.font = UIFont.preferredFont(forTextStyle: UIFont.TextStyle.title3)
+//
+//        stack.addArrangedSubview(icon)
+//        stack.addArrangedSubview(link)
+        let view = UIView()
+        view.translatesAutoresizingMaskIntoConstraints = false
         
+        let margin = CGFloat(8)
+        view.directionalLayoutMargins = NSDirectionalEdgeInsets(top: margin, leading: margin, bottom: margin, trailing: margin)
+        
+        let link = UILabel()
+        link.translatesAutoresizingMaskIntoConstraints = false
+        
+        link.text = "github.com/bayanijulian"
+        link.textAlignment = NSTextAlignment.left
+        link.textColor = UIColor.label
+        link.font = UIFont.preferredFont(forTextStyle: UIFont.TextStyle.title2)
+        
+        let config = UIImage.SymbolConfiguration(textStyle: .title1, scale: .medium)
+        let attachment = NSTextAttachment()
+        attachment.image = UIImage(named: "GitHubIcon")?.applyingSymbolConfiguration(config)?.withBaselineOffset(fromBottom: link.font.pointSize / 2)
+//        attachment.image = UIImage(named: "GitHubIcon")?.applyingSymbolConfiguration(config)
+        
+        
+        let imageString = NSMutableAttributedString(attachment: attachment)
+//        imageString.setAttributes([NSAttributedString.Key.kern : 8], range: NSRange.init(location: 0, length: 1))
+//        imageString.addAttribute(NSAttributedString.Key.kern, value: -8, range: NSRange.init(location: 0, length: 1))
+        let textString = NSAttributedString(string: " github.com/bayanijulian")
+        imageString.append(textString)
+        imageString.addAttribute(NSAttributedString.Key.kern, value: 16, range: NSRange.init(location: 0, length: 2))
+        
+        link.attributedText = imageString
+        
+        link.sizeToFit()
+//        attachment.image!
+//        link.firstBaselineAnchor.constraint(equalTo: baselineImage!.).isActive = true
+//        return stack
+        view.addSubview(link)
+        link.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor).isActive = true
+        link.trailingAnchor.constraint(equalTo: view.layoutMarginsGuide.trailingAnchor).isActive = true
+        link.topAnchor.constraint(equalTo: view.layoutMarginsGuide.topAnchor).isActive = true
+//        view.bottomAnchor.constraint(equalTo: view.layoutMarginsGuide.bottomAnchor).isActive = true
+        view.heightAnchor.constraint(equalTo: link.heightAnchor, constant: 20).isActive = true
         return view
     }()
     
@@ -204,7 +284,7 @@ class ViewController: UIViewController {
             headerView.widthAnchor.constraint(equalTo: mainStack.widthAnchor),
             
             contactView.widthAnchor.constraint(equalTo: mainStack.widthAnchor),
-            contactView.heightAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.heightAnchor, multiplier: 4/12)
+//            contactView.heightAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.heightAnchor, multiplier: 4/12)
         ])
     }
 }
