@@ -93,9 +93,6 @@ class ProfileImageAndNameView: UIView {
         ])
     }
     
-    /*
-     *
-     */
     func updateView(withImage image: UIImage, fullName: String, pronouns: String) {
         
         imageView.image = image

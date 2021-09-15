@@ -9,6 +9,8 @@ import UIKit
 
 class AboutMeViewController: UIViewController {
     
+    // MARK: - Lifecycle
+    
     override func loadView() {
 
         view = DetailView(buttonAction: { [weak self] in
@@ -18,6 +20,8 @@ class AboutMeViewController: UIViewController {
         view.backgroundColor = .white
     }
 
+    // MARK: - Actions
+    
     private func submitButtonPressed() {
 
         let alertController = UIAlertController(title: nil, message: "Yoo! Nice to meet you!", preferredStyle: .alert)

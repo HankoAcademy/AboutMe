@@ -8,8 +8,12 @@
 import UIKit
 
 class DetailView: UIView {
-
-    var buttonAction: (() -> Void)?
+    
+    // MARK: - Class Properties
+    
+    var buttonAction: (() -> Void)
+    
+    // MARK: - UI Properties
     
     let profileImageAndNameView: ProfileImageAndNameView = {
         let profileImageAndNameView = ProfileImageAndNameView()
@@ -17,13 +21,9 @@ class DetailView: UIView {
         return profileImageAndNameView
     }()
     
-    let submitButton: UIButton = {
-        let button = UIButton()
+    lazy var submitButton: AboutMeButton = {
+        let button = AboutMeButton(buttonAction: buttonAction)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.backgroundColor = UIColor(named: "RedColor")
-        button.setTitle("Say Hi 👋🏻", for: .normal)
-        button.addTarget(self, action: #selector(submitButtonPressed), for: .touchUpInside)
-        button.layer.cornerRadius = 20
         return button
     }()
     
@@ -52,8 +52,7 @@ class DetailView: UIView {
     let twitterStackView: ImageWithLabelStackView = {
         let imageWithLabelStackView = ImageWithLabelStackView()
         imageWithLabelStackView.translatesAutoresizingMaskIntoConstraints = false
-        imageWithLabelStackView.imageView.image = UIImage(named: "twitter")
-        imageWithLabelStackView.imageView.image = imageWithLabelStackView.imageView.image?.withRenderingMode(.alwaysTemplate)
+        imageWithLabelStackView.updateView(withImage: UIImage(named: "twitter"), andText: "@heytherehan")
         imageWithLabelStackView.imageView.tintColor = UIColor(named: "NavyColor")
         
         return imageWithLabelStackView
@@ -62,12 +61,7 @@ class DetailView: UIView {
     let linkedInStackView: ImageWithLabelStackView = {
         let imageWithLabelStackView = ImageWithLabelStackView()
         imageWithLabelStackView.translatesAutoresizingMaskIntoConstraints = false
-        imageWithLabelStackView.imageView.image = UIImage(named: "linkedIn")
-        
-        imageWithLabelStackView.imageView.image = imageWithLabelStackView.imageView.image?.withRenderingMode(.alwaysTemplate)
-        imageWithLabelStackView.imageView.tintColor = UIColor(named: "NavyColor")
-        
-        imageWithLabelStackView.textLabel.text = "linkedin.com/in/han-kim/b247b891"
+        imageWithLabelStackView.updateView(withImage: UIImage(named: "linkedIn"), andText: "linkedin.com/in/han-kim/b247b891")
         return imageWithLabelStackView
     }()
     
@@ -130,6 +124,8 @@ class DetailView: UIView {
         return label
     }()
     
+    // MARK: - Initializers
+    
     init(buttonAction: @escaping () -> Void) {
         self.buttonAction = buttonAction
                                 
@@ -141,6 +137,8 @@ class DetailView: UIView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+    // MARK: - UI Setup Methods
     
     private func setUpUI() {
         
@@ -330,9 +328,5 @@ class DetailView: UIView {
             submitButton.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: 10),
             submitButton.heightAnchor.constraint(equalToConstant: 50)
         ])
-    }
-    
-    @objc func submitButtonPressed() {
-        buttonAction?()
     }
 }

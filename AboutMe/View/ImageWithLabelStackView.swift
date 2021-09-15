@@ -70,11 +70,15 @@ class ImageWithLabelStackView: UIStackView {
     
     /**
      Assigns property values for views
-     
+    
      Under MVC, View files are only UI-based. It's up to ViewControllers to determine what data is displayed in these Views.
      */
-    func updateView(withImage image: UIImage, andText text: String) {
+    func updateView(withImage image: UIImage?, andText text: String) {
         
+        imageView.image = UIImage(named: "twitter")
+        imageView.image = imageView.image?.withRenderingMode(.alwaysTemplate)
+        imageView.tintColor = UIColor(named: "NavyColor")
         
+        textLabel.text = text
     }
 }
