@@ -14,8 +14,6 @@ class ImageWithLabelStackView: UIStackView {
     let imageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.image?.withRenderingMode(.alwaysTemplate)
-        imageView.tintColor = UIColor(named: "NavyColor")        
         imageView.contentMode = .scaleAspectFit
         return imageView
     }()
@@ -24,8 +22,7 @@ class ImageWithLabelStackView: UIStackView {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont.systemFont(ofSize: 15, weight: .regular)
-        label.textColor = .lightGray
-        label.text = "@heytherehan"
+        label.textColor = .lightGray        
         return label
     }()
     
@@ -75,7 +72,7 @@ class ImageWithLabelStackView: UIStackView {
      */
     func updateView(withImage image: UIImage?, andText text: String) {
         
-        imageView.image = UIImage(named: "twitter")
+        imageView.image = image
         imageView.image = imageView.image?.withRenderingMode(.alwaysTemplate)
         imageView.tintColor = UIColor(named: "NavyColor")
         
