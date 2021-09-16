@@ -53,8 +53,6 @@ class DetailView: UIView {
         let imageWithLabelStackView = ImageWithLabelStackView()
         imageWithLabelStackView.translatesAutoresizingMaskIntoConstraints = false
         imageWithLabelStackView.updateView(withImage: UIImage(named: "twitter"), andText: "@heytherehan")
-        imageWithLabelStackView.imageView.tintColor = UIColor(named: "NavyColor")
-        
         return imageWithLabelStackView
     }()
     
@@ -307,7 +305,7 @@ class DetailView: UIView {
     
     private func addIOSDescription() {
         
-        iOSInterestTitleLabel.addSubview(iOSInterestDescriptionLabel)
+        iOSInterestView.addSubview(iOSInterestDescriptionLabel)
         
         NSLayoutConstraint.activate([
             iOSInterestDescriptionLabel.topAnchor.constraint(equalTo: iOSInterestTitleLabel.bottomAnchor, constant: 5),
